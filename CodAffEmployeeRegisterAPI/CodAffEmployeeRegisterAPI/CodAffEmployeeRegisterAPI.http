@@ -1,0 +1,6 @@
+@CodAffEmployeeRegisterAPI_HostAddress = http://localhost:5241
+
+GET {{CodAffEmployeeRegisterAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
