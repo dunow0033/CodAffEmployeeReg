@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodAffEmployeeRegisterAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f94fa95e733658f69688ec9a1dad308d9e930b42")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2816a961c2d041b102583f1b4aed3c16b09263fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodAffEmployeeRegisterAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodAffEmployeeRegisterAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

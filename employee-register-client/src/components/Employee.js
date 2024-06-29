@@ -71,11 +71,12 @@ export default function Employee(props) {
         e.preventDefault()
         if(validate()) {
             const formData = new FormData();
-            formData.append('employeeId', values.employeeId);
+            formData.append('employeeID', values.employeeID);
             formData.append('employeeName', values.employeeName);
             formData.append('occupation', values.occupation);
-            formData.append('imageName', values.imageName);
+            formData.append('imageName', values.imageName || 'defaultImgName');
             //console.log("imageName:" + values.imageName);
+            formData.append('imageSrc', '0');
             formData.append('imageFile', values.imageFile);
             addOrEdit(formData, resetForm);
         }

@@ -32,22 +32,26 @@ export default function EmployeeList() {
         //     console.log(pair[0] + ': ' + pair[1]);
         // }
 
-        if(formData.get('employeeID') == "0")
+        if(formData.get('employeeID') === "0")
+        {
             employeeAPI().create(formData)
             .then(res => {
                 onSuccess();
                 refreshEmployeeList();
             })
-            .catch(err => 
-                console.log(err))
-        else
-            employeeAPI().update(formData.get('employeeId'), formData)
+            .catch(err => {
+                console.log(err);
+            });
+        }
+        else {
+            employeeAPI().update(formData.get('employeeID'), formData)
             .then(res => {
                 onSuccess();
                 refreshEmployeeList();
             })
             .catch(err => 
                 console.log(err))
+            }
     }
     
     const showRecordDetails = data => {
